@@ -1,5 +1,5 @@
 server:
-  port: 8009 #local environment setup
+  port: #local environment setup
   servlet:
     context-path: /
 spring:
@@ -7,9 +7,9 @@ spring:
     name: login-api
   datasource:
     # local database
-    url: jdbc:mysql://localhost:3306/achievers
-    username: root
-    password: root
+    url: <database url>
+    username: <username>
+    password: <pwd>
     driver-class-name: com.mysql.cj.jdbc.Driver
     max-active: 10
     initial-size: 5
@@ -35,11 +35,11 @@ spring:
 
 #used trail account
 twilio:
-  account-sid: AC8838db13d697629c0bb7470fd4410671
-  auth-token: 6b234658f69c43e7c1bc2b5fb13d25c5
-  twilio-phone-number: +14793415852
+  account-sid: <sid>
+  auth-token: <token>
+  twilio-phone-number: <phone number>
   message: 'You know the rituals.. Use OTP: otp to login'
 jwt:
   # generated USING SSL
-  secret: x6flVGdmTVBxKMWlHQJ+8cTUjBldDMN2hm1lNer/GBA=
+  secret: <>
 

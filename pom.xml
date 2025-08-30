@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>login</groupId>
-	<artifactId>api</artifactId>
+	<artifactId>twillio-auth-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>login-api</name>
 	<description>LoginAPI</description>
